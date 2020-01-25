@@ -1,0 +1,23 @@
+{
+  "name": "df/endpoints",
+  "package_classes": [
+    {
+      "class": "df\\components\\endpoints\\templates\\EndpointTemplateRepository",
+      "interface": "df\\interfaces\\endpoints\\templates\\IEndpointTemplateRepository"
+    },
+    {
+      "class": "df\\components\\endpoints\\EndpointRepository",
+      "interface": "df\\interfaces\\endpoints\\IEndpointRepository"
+    }
+  ],
+  "plugins": [
+    {
+      "class": "df\\components\\plugins\\PluginInstallEndpoints",
+      "stage": "extas.install"
+    },
+    {
+      "class": "df\\components\\plugins\\PluginInstallEndpointTemplates",
+      "stage": "extas.install"
+    }
+  ]
+}

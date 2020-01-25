@@ -1,0 +1,13 @@
+{
+  "name": "jeyroik/df-endpoint",
+  "description": "Df endpoint package",
+  "require": {
+    "jeyroik/extas-base": "*",
+    "jeyroik/extas-templates": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "df\\": "src/"
+    }
+  }
+}
